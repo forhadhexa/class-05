@@ -1,0 +1,71 @@
+@import url('./global.css');
+@import url('./reset.css');
+
+
+/* hrader section css start */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    margin-top: 40px;
+    z-index: 1;
+}
+.main-menu {
+    display: flex;
+}
+.header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu li a {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 30px 18px;
+}
+.logo {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.menu-btn {
+    background-color: rgb(246, 253, 251);
+    color: black;
+    border-radius: 40px;
+    margin: 5px;
+}
+/* hrader section css end */
+
+/* banner section css start */
+.banner-section {
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-y: bottom;
+}
+.banner-section .phone-1,
+.banner-section .phone-2 {
+    position: absolute;
+    bottom: 0;
+}
+.banner-section .phone-1 {
+    right: 20%;
+}
+.banner-section .phone-2 {
+    right: 7%;
+} 
+.banner-section .title {
+    font-size: 70px;
+    color: white;
+}
+.banner-btn {
+    margin-top: 55px;
+}
+.banner-btn a {
+    padding-right: 15px;
+}
+/* banner section css end */
